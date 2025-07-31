@@ -1,10 +1,10 @@
-🗳️ Cálculo de Percentuais de Votos
+# 🗳️ Cálculo de Percentuais de Votos
 
 Este projeto calcula os percentuais de votos **válidos**, **brancos** e **nulos** com base no total de eleitores. A implementação segue o paradigma de **programação orientada a objetos (POO)**.
 
 ---
 
-📌 Funcionalidades
+## 📌 Funcionalidades
 
 - Recebe total de eleitores, votos válidos, brancos e nulos.
 - Calcula os percentuais de cada tipo de voto em relação ao total de eleitores.
