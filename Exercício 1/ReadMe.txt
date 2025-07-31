@@ -1,22 +1,34 @@
-# 🗳️ Calculadora de Percentuais de Votos
+# 🗳️ Cálculo de Percentuais de Votos
 
-Este projeto foi desenvolvido como um exercício de programação orientada a objetos. Ele calcula os percentuais de votos **válidos**, **brancos** e **nulos** com base no total de eleitores.
+Este projeto calcula os percentuais de votos **válidos**, **brancos** e **nulos** com base no total de eleitores. A implementação segue o paradigma de **programação orientada a objetos (POO)**.
 
-## 🚀 Como funciona
+## 📌 Funcionalidades
 
-A classe `Eleicao` contém três métodos principais:
+- Recebe total de eleitores, votos válidos, brancos e nulos.
+- Calcula os percentuais de cada tipo de voto em relação ao total de eleitores.
+- Exibe os resultados com duas casas decimais.
 
-- `percentual_validos()` → retorna o percentual de votos válidos
-- `percentual_brancos()` → retorna o percentual de votos em branco
-- `percentual_nulos()` → retorna o percentual de votos nulos
+## 🧠 Lógica aplicada
 
-Os cálculos são feitos em relação ao total de eleitores.
+Percentuais são calculados com a fórmula:
 
-## 📦 Requisitos
+percentual = (quantidade / total_eleitores) * 100
 
-- Python 3.7+
 
-## 🧪 Exemplo de uso
+## 🧪 Exemplo de saída
+
+Percentual de votos válidos: 80.00%
+Percentual de votos brancos: 15.00%
+Percentual de votos nulos: 5.00%
+
+
+## 🚀 Como executar
 
 ```bash
 python eleicao.py
+
+📦 Requisitos
+Python 3.7 ou superior
+
+👨‍💻 Autor
+Desenvolvido por Luis Gustavo Ferreira Leite
