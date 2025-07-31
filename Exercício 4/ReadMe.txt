@@ -1,22 +1,32 @@
-# 🗳️ Calculadora de Percentuais de Votos
+# 🔢 Soma dos Múltiplos de 3 ou 5
 
-Este projeto foi desenvolvido como um exercício de programação orientada a objetos. Ele calcula os percentuais de votos **válidos**, **brancos** e **nulos** com base no total de eleitores.
+Este projeto calcula a soma de todos os números naturais menores que um valor `X` que sejam múltiplos de **3** ou **5**.
 
-## 🚀 Como funciona
+## 📌 Funcionalidades
 
-A classe `Eleicao` contém três métodos principais:
+- Recebe um número inteiro `X` como entrada.
+- Retorna a soma de todos os múltiplos de 3 ou 5 menores que `X`.
 
-- `percentual_validos()` → retorna o percentual de votos válidos
-- `percentual_brancos()` → retorna o percentual de votos em branco
-- `percentual_nulos()` → retorna o percentual de votos nulos
+## 🧠 Lógica aplicada
 
-Os cálculos são feitos em relação ao total de eleitores.
+```python
+for i in range(x):
+    if i % 3 == 0 or i % 5 == 0:
+        soma += i
 
-## 📦 Requisitos
+🧪 Exemplo
 
-- Python 3.7+
+Para entrada X = 10:
 
-## 🧪 Exemplo de uso
+Múltiplos: 3, 5, 6, 9
+Soma: 23
 
-```bash
-python eleicao.py
+🚀 Como executar
+
+python soma_multiplos.py
+
+📦 Requisitos
+Python 3.7 ou superior
+
+👨‍💻 Autor
+Desenvolvido por Luis Gustavo Ferreira Leite
