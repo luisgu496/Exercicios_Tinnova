@@ -1,22 +1,33 @@
-# 🗳️ Calculadora de Percentuais de Votos
+# 🧮 Cálculo de Fatorial
 
-Este projeto foi desenvolvido como um exercício de programação orientada a objetos. Ele calcula os percentuais de votos **válidos**, **brancos** e **nulos** com base no total de eleitores.
+Este programa calcula o **fatorial** de um número inteiro não-negativo informado pelo usuário.
 
-## 🚀 Como funciona
+## 📌 Funcionalidades
 
-A classe `Eleicao` contém três métodos principais:
+- Calcula o fatorial de qualquer número `n >= 0`.
+- Valida entradas para garantir que sejam números inteiros e não-negativos.
 
-- `percentual_validos()` → retorna o percentual de votos válidos
-- `percentual_brancos()` → retorna o percentual de votos em branco
-- `percentual_nulos()` → retorna o percentual de votos nulos
+## 🧠 Lógica aplicada
 
-Os cálculos são feitos em relação ao total de eleitores.
+- Se `n == 0` ou `n == 1`, retorna 1.
+- Caso contrário, multiplica de 2 até `n` de forma iterativa.
 
-## 📦 Requisitos
+## 🧪 Exemplos
 
-- Python 3.7+
+| Entrada | Resultado |
+|--------:|----------:|
+| 0       | 1         |
+| 3       | 6         |
+| 5       | 120       |
+| 6       | 720       |
 
-## 🧪 Exemplo de uso
+## 🚀 Como executar
 
 ```bash
-python eleicao.py
+python fatorial.py
+
+📦 Requisitos
+Python 3.7 ou superior
+
+👨‍💻 Autor
+Desenvolvido por Luis Gustavo Ferreira Leite
