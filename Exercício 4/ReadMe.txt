@@ -1,4 +1,4 @@
-# 🔢 Soma dos Múltiplos de 3 ou 5
+🔢 Soma dos Múltiplos de 3 ou 5
 
 Este projeto calcula a soma de todos os números naturais menores que um valor `X` que sejam múltiplos de **3** ou **5**.
 
