@@ -1,22 +1,36 @@
-# 🗳️ Calculadora de Percentuais de Votos
+🔃 Algoritmo de Ordenação Bubble Sort
 
-Este projeto foi desenvolvido como um exercício de programação orientada a objetos. Ele calcula os percentuais de votos **válidos**, **brancos** e **nulos** com base no total de eleitores.
+Este projeto implementa o algoritmo **Bubble Sort**, que ordena elementos de um vetor comparando pares adjacentes e trocando-os se estiverem fora de ordem.
 
-## 🚀 Como funciona
 
-A classe `Eleicao` contém três métodos principais:
+## 📌 Funcionalidades
 
-- `percentual_validos()` → retorna o percentual de votos válidos
-- `percentual_brancos()` → retorna o percentual de votos em branco
-- `percentual_nulos()` → retorna o percentual de votos nulos
+- Ordena uma lista de inteiros usando o Bubble Sort.
+- Mostra a lista a cada iteração para fins didáticos.
 
-Os cálculos são feitos em relação ao total de eleitores.
+## 🧠 Lógica aplicada
 
-## 📦 Requisitos
+O algoritmo percorre o vetor `n-1` vezes, e a cada passagem empurra o maior elemento restante para o final:
 
-- Python 3.7+
+```python
+for i in range(n - 1):
+    for j in range(n - 1 - i):
+        if vetor[j] > vetor[j + 1]:
+            swap
 
-## 🧪 Exemplo de uso
+🧪 Exemplo de saída
 
-```bash
-python eleicao.py
+Iteração 1: [3, 2, 4, 5, 1, 0, 6, 7]
+Iteração 2: [2, 3, 4, 1, 0, 5, 6, 7]
+...
+Vetor ordenado: [0, 1, 2, 3, 4, 5, 6, 7]
+
+🚀 Como executar
+
+python bubblesort.py
+
+📦 Requisitos
+Python 3.7 ou superior
+
+👨‍💻 Autor
+Desenvolvido por Luis Gustavo Ferreira Leite
